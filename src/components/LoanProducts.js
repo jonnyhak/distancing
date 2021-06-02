@@ -20,7 +20,8 @@ export default function PropertyTypes(props) {
             {value: "Ground-up Construction", label: "Ground-up Construction"},
             {value: "Fix and Flip / Rehab / Renovation / Value-add / Light Construction", label: "Fix and Flip / Rehab / Renovation / Value-add / Light Construction"},
             {value: "Mezzanine", label: "Mezzanine"},
-            {value: "Preferred Equity", label: "Preferred Equity"}
+            {value: "Preferred Equity", label: "Preferred Equity"},
+            {value: "C-PACE", label: "C-PACE"}
     ]
     
     return (
