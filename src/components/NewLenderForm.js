@@ -323,9 +323,11 @@ function NewLenderForm(props) {
               selectedStates={selectedStates}
               setSelectedStates={setSelectedStates}
             />
-            <button type="button" onClick={renderCounties}>
-              Next
-            </button>
+            {/* {selectedStates.length > 0 ? ( */}
+              <button type="button" onClick={renderCounties}>
+                Next
+              </button>
+            {/* ) : null} */}
           </>
         ) : null}
         {statesClicked ? (
